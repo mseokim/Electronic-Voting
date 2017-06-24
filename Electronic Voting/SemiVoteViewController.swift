@@ -26,6 +26,14 @@ class SemiVoteViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func txtFieldName(_ sender: Any) {
+        txtFieldName.resignFirstResponder()
+    }
+    
+    @IBAction func txtFieldNumber(_ sender: Any) {
+        txtFieldNumber.resignFirstResponder()
+    }
+    
     
     @IBAction func btnComplete(_ sender: Any) {
         
