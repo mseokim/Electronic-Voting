@@ -13,7 +13,10 @@ class VoteViewController: UIViewController {
     @IBOutlet weak var switch1: UISwitch!
     @IBOutlet weak var switch2: UISwitch!
     @IBOutlet weak var switch3: UISwitch!
+    var i = 0
+    var receiveNumber = ""
     
+    @IBOutlet weak var lblNumber: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +26,8 @@ class VoteViewController: UIViewController {
         switch2.onTintColor = .green
         switch3.isOn = false
         switch3.onTintColor = .blue
+        
+        lblNumber.text = receiveNumber
         // Do any additional setup after loading the view.
     }
 
@@ -46,6 +51,15 @@ class VoteViewController: UIViewController {
         switch2.isOn = false
     }
 
+    @IBAction func btnEnd(_ sender: Any) {
+        
+    }
+    
+    func receiveNumber(_ number : String)
+    {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

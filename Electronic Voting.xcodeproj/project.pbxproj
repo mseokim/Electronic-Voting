@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		016D6C9D1EFD5155001E5045 /* SemiVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016D6C9C1EFD5155001E5045 /* SemiVoteViewController.swift */; };
 		016D6CB21EFDF07B001E5045 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016D6CB11EFDF07B001E5045 /* VoteViewController.swift */; };
+		016D6CB41EFE0FD1001E5045 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016D6CB31EFE0FD1001E5045 /* ResultViewController.swift */; };
 		01D55C121EFD369800BCFB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D55C111EFD369800BCFB8E /* AppDelegate.swift */; };
 		01D55C141EFD369800BCFB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D55C131EFD369800BCFB8E /* ViewController.swift */; };
 		01D55C171EFD369800BCFB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D55C151EFD369800BCFB8E /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		016D6C9C1EFD5155001E5045 /* SemiVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiVoteViewController.swift; sourceTree = "<group>"; };
 		016D6CB11EFDF07B001E5045 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		016D6CB31EFE0FD1001E5045 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		01D55C0E1EFD369800BCFB8E /* Electronic Voting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electronic Voting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D55C111EFD369800BCFB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01D55C131EFD369800BCFB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				01D55C1D1EFD369800BCFB8E /* Info.plist */,
 				016D6C9C1EFD5155001E5045 /* SemiVoteViewController.swift */,
 				016D6CB11EFDF07B001E5045 /* VoteViewController.swift */,
+				016D6CB31EFE0FD1001E5045 /* ResultViewController.swift */,
 			);
 			path = "Electronic Voting";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016D6CB41EFE0FD1001E5045 /* ResultViewController.swift in Sources */,
 				016D6CB21EFDF07B001E5045 /* VoteViewController.swift in Sources */,
 				01D55C141EFD369800BCFB8E /* ViewController.swift in Sources */,
 				01D55C121EFD369800BCFB8E /* AppDelegate.swift in Sources */,

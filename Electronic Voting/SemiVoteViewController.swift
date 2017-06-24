@@ -13,6 +13,8 @@ class SemiVoteViewController: UIViewController {
     @IBOutlet weak var txtFieldName: UITextField!
     @IBOutlet weak var txtFieldNumber: UITextField!
     
+    var number = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         txtFieldName.placeholder = "이름을 입력해주세요."
@@ -36,7 +38,24 @@ class SemiVoteViewController: UIViewController {
     
     
     @IBAction func btnComplete(_ sender: Any) {
-        
+        if(txtFieldName.text == "이름을 입력해주세요." || txtFieldName.text == "")
+        {
+            let dangerAlert = UIAlertController(title: "경고", message: "이름을 적어주세요", preferredStyle: UIAlertControllerStyle.alert)
+            let onAction = UIAlertAction(title: "네, 알겠습니다", style: UIAlertActionStyle.default, handler: nil)
+            
+            dangerAlert.addAction(onAction)
+            present(dangerAlert, animated: true, completion: nil)
+        } else if(txtFieldNumber.text == "학번을 입력해주세요." || txtFieldNumber.text == "")
+        {
+            let dangerAlert = UIAlertController(title: "경고", message: "학번을 적어주세요", preferredStyle: UIAlertControllerStyle.alert)
+            let onAction = UIAlertAction(title: "네, 알겠습니다", style: UIAlertActionStyle.default, handler: nil)
+            
+            dangerAlert.addAction(onAction)
+            present(dangerAlert, animated: true, completion: nil)
+        } else
+        {
+            number.append(txtFieldNumber.text!)
+        }
     }
     
 
